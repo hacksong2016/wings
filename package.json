@@ -1,0 +1,11 @@
+{
+  "name": "wings",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "echarts": "^3.2.2",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
