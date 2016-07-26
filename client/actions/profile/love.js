@@ -34,7 +34,7 @@ Template.profile_love.onRendered(function() {
         tooltip: {
             trigger: 'item',
             formatter: function(params) {
-                return params.name + '<br>累计救助：' + params.value[2] + '元';
+                return params.name + '<br>累计捐赠：' + params.value[2] + '元';
             }
         },
         legend: {

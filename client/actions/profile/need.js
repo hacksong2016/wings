@@ -34,7 +34,7 @@ Template.profile_need.onRendered(function() {
         tooltip: {
             trigger: 'item',
             formatter: function(params) {
-                return params.name + '<br>有' + params.value[2] + '名需要救助的儿童';
+                return params.name + '<br>有 ' + params.value[2] + ' 名需要救助的儿童';
             }
         },
         legend: {
@@ -109,7 +109,7 @@ Template.profile_need.onRendered(function() {
         if (this.subscriptionsReady()) {
             const schools = School.find({}, {
                 sort: {
-                    invest: -1
+                    childrens: -1
                 }
             }).fetch();
             // console.log(schools[0]);

@@ -42,7 +42,13 @@ Template.school_view = Template.fromString(`
                     <tr><th>更新时间</th><td>{{timeformat object.updateat}}</td></tr>
                 
                     <tr><th>详情</th><td></td></tr>
-                    <tr><td colspan=2>{{{object.description}}}</td></tr>
+                    <tr><td colspan=2 class=''>
+                    <div class="panel col-lg-8 center-block">
+                        <div class="panel-body">
+                        {{{object.description}}}
+                        </div>
+                    </div>
+                    </td></tr>
                 </tbody>
             </table>
             <div class="center-block form-buttons">
